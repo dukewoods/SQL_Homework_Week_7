@@ -41,23 +41,23 @@ Some fraudsters hack a credit card by making several small transactions (general
 How can you isolate (or group) the transactions of each cardholder?
 
 * Count the transactions that are less than $2.00 per cardholder.\
-  There are 350 transactions that are less than $2.00 [sql_view]("C:\Users\duke_\OneDrive\FINTECH\Github\SQL_Homework_Week_7\Resources\fraud_trans_all_less_than_2.00.csv")
+  There are 350 transactions that are less than $2.00 [sql_view](./Resources/fraud_trans_all_less_than_2.00.csv)
 
 * Is there any evidence to suggest that a credit card has been hacked? Explain your rationale.\
 I cant see any evidence in this data as there are multiple names with less than $2 transactions, also lots of different card number and merchants.
 
 * What are the top 100 highest transactions made between 7:00 am and 9:00 am?\
-See SQL view file [sql_view_7-9]("C:\Users\duke_\OneDrive\FINTECH\Github\SQL_Homework_Week_7\Resources\fraud_trans_7-9_top_100.csv")
+See SQL view file [sql_view_7-9](./Resources/fraud_trans_7-9_top_100.csv)
 
 * Do you see any anomalous transactions that could be fraudulent?\
 Yes i see two transactions with large float decimals, id 3163 and 2451.
 
 * Is there a higher number of fraudulent transactions made during this time frame versus the rest of the day?\
-No i see that there is also fraudulent transactions made during other parts of the day. [sql_view_all]("C:\Users\duke_\OneDrive\FINTECH\Github\SQL_Homework_Week_7\Resources\fraud_trans_all_day.csv")
+No i see that there is also fraudulent transactions made during other parts of the day. [sql_view_all](./Resources/fraud_trans_all_day.csv)
 
 * What are the top 5 merchants prone to being hacked using small transactions?\
 ![](Images/top_5_merchants.png)
-[sql_view_top_5_merchants]("C:\Users\duke_\OneDrive\FINTECH\Github\SQL_Homework_Week_7\Resources\top_5_merchants_less_than_2.00.csv")
+[sql_view_top_5_merchants](./Resources/top_5_merchants_less_than_2.00.csv)
 
 Part 2
 
