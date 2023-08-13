@@ -22,7 +22,7 @@ Data Analysis: Analyze the data to identify possible fraudulent transactions tre
 
 #### Data Files
 
-[card_holder.csv]("..\Resources\card_holder.csv")
+[card_holder.csv]("Resources\card_holder.csv")
 
 [credit_card.csv]("C:\Users\duke_\OneDrive\FINTECH\Github\SQL_Homework_Week_7\Resources\credit_card.csv")
 
