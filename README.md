@@ -22,15 +22,15 @@ Data Analysis: Analyze the data to identify possible fraudulent transactions tre
 
 #### Data Files
 
-[card_holder.csv](Resources\card_holder.csv)
+[card_holder.csv](./Resources\card_holder.csv)
 
-[credit_card.csv](Resources\credit_card.csv)
+[credit_card.csv](./Resources\credit_card.csv)
 
-[merchant.csv](Resources\merchant.csv)
+[merchant.csv](./Resources\merchant.csv)
 
-[merchant_category.csv](Resources\merchant_category.csv)
+[merchant_category.csv](./Resources\merchant_category.csv)
 
-[transaction.csv](Resources\transaction.csv)
+[transaction.csv](./Resources\transaction.csv)
 
 #### ERD
 ![](Images/ERD.jpg)
